@@ -37,6 +37,18 @@ a:hover {
   margin: 18px
 }
 
+.card p {
+  padding: 20px;
+}
+
+.card p {
+  margin-bottom: 30px;
+}
+
+.card a {
+  margin-top: 30px;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -55,22 +67,23 @@ a:hover {
 }
 
 li {
-  display: inline;
-  margin: 5px;
-  font-size: 30px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 40px;
   color: rgb(21, 21, 143);
 }
 
 .link_to_random_website {
-  color: rgb(170, 170, 193);
-  background: blue;
+  color: rgb(241, 241, 246);
+  background: rgb(21, 21, 143);
   border: 3px;
-  border-radius: 7px;
+  border-radius: 9px;
   box-shadow: 5px 5px 8px rgba(96, 93, 93, 0.2);
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   border: 0.2px solid rgb(236, 232, 232);
-  margin: 3px
+  margin: 3px;
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
@@ -93,5 +106,3 @@ li {
     width: 301px;
   }
 }
-
-  /* For a screen < 960px, this CSS will be read */
