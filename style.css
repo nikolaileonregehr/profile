@@ -65,18 +65,24 @@ li {
   display: inline;
   margin: 5px;
   font-size: 30px;
-  color: rgb(21, 21, 143);
+  color: rgb(59, 59, 204);
 }
 
 .link_to_random_website {
-  color: rgb(21, 21, 143);
+  color: rgb(251, 251, 251);
+  background: rgb(59, 59, 204);
+  border: 3px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 12px;
+  border: 0.2px solid rgb(236, 232, 232);
+  margin: 5px
 }
 
 @media (max-width: 960px) {
-
+  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-
   }
 }
 
@@ -90,6 +96,8 @@ li {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 301px;
   }
 }
+
+  /* For a screen < 960px, this CSS will be read */
