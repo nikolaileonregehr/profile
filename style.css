@@ -21,13 +21,6 @@ body {
   text-align: center;
 }
 
-a {
-  color: rgb(19, 24, 21);
-  text-decoration: dashed;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-}
-
 a:hover {
   align-self: center;
   color: grey;
@@ -69,7 +62,15 @@ li {
 }
 
 .link_to_random_website {
-  color: rgb(21, 21, 143);
+  color: rgb(170, 170, 193);
+  background: blue;
+  border: 3px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 8px rgba(96, 93, 93, 0.2);
+  text-align: center;
+  padding: 5px;
+  border: 0.2px solid rgb(236, 232, 232);
+  margin: 3px
 }
 
 @media (max-width: 960px) {
