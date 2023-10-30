@@ -44,6 +44,19 @@ a:hover {
   margin: 18px
 }
 
+.card p {
+  padding: 20px; /* Add padding to <p> elements inside .card */
+}
+
+.card h2 {
+  margin-bottom: 30px; /* Add margin below <h2> elements inside .card */
+}
+
+.card a {
+  margin-top: 30px; /* Add margin above <a> elements inside .card */
+}
+
+
 .img-circle {
   border-radius: 50%;
 }
