@@ -39,21 +39,21 @@ a:hover {
   border-radius: 7px;
   box-shadow: 5px 5px 8px rgba(96, 93, 93, 0.2);
   text-align: center;
-  padding: 50px;
+  padding: 20px;
   border: 0.2px solid rgb(236, 232, 232);
-  margin: 25px
+  margin: 10px
 }
 
 .card p {
-  padding: 20px; /* Add padding to <p> elements inside .card */
+  padding: 10px; /* Add padding to <p> elements inside .card */
 }
 
 .card h2 {
-  margin-bottom: 30px; /* Add margin below <h2> elements inside .card */
+  margin-bottom: 10px; /* Add margin below <h2> elements inside .card */
 }
 
 .card a {
-  margin-top: 30px; /* Add margin above <a> elements inside .card */
+  margin-top: 10px; /* Add margin above <a> elements inside .card */
 }
 
 
@@ -62,8 +62,9 @@ a:hover {
 }
 
 .container {
-  width: 800px;   /* This sets the width */
+  width: 100%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+  max-width: 800px;
 }
 
 #social_media {
